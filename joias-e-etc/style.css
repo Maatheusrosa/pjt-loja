@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/*header*/
+
+    #head-up {
+    width: 100vw;
+    height: 100px;
+    background-color: lightgray;
+    }
+
+        #logo {
+            width: 253px;
+            height: 58px;
+            margin-left: 90px;
+            margin-top: 20px;
+            position: absolute;
+            cursor: pointer;
+        }
+
+
+        #container-carrinho {
+            float: right;
+            width: 70px;
+            height: 70px;
+            margin-right: 30px;
+            margin-top: 15px;
+        }
+
+            #carrinho {
+                width: 50px;
+                height: 50px;
+                background-color: black;
+                margin-left: 10px;
+            }
+
+            #container-carrinho > p  {
+                margin-left: 6px;
+            }
+
+    #head-down {
+        width: 100vw;
+        height: 30px;
+        background-color: rgb(236, 236, 236);
+    }
+
+        #container-opcoes {
+            width: 520px;
+            height: 30px;
+            margin-left: 50%;
+            transform: translate(-50%);
+        }
+
+            .opcoes {
+                color: black;
+                display: inline-block;
+                margin-left: 50px;
+                font-size: 20px;
+                margin-top: 3px;
+            }
+
+            .opcoes > p:hover {
+                color: pink;
+                transition: 300ms;
+                cursor: pointer;
+            }
+
+/*main*/
+
+    #container-principal {
+        width: 70vw;
+        height: 1000px;
+        margin-left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+    }
+
+        #carrosel {
+            width: 1075px;
+            height: 400px;
+            background-color: lightgray;
+            margin-left: 50%;
+            transform: translate(-50%);
+            margin-top: 50px;
+        }
+
+        #container-produtos {
+            width: 80%;
+            margin-left: 50%;
+            transform: translate(-50%);
+            margin-top: 50px;
+        }
+
+            .produtos {
+                width: 308px;
+                height: 390px;
+                background-color: lightgray;
+                display: inline-block;
+            }
+
+            #pdt1, #pdt2 {
+                margin-left: 71px;
+            }
+
+
+    
+    
